@@ -1,3 +1,15 @@
+---
+title: Single cell analysis for dummies - running cell ranger
+date: 2026-06-30
+description: single cell tutorial
+authors: ["roopini"]
+tags:
+  - singlecelltutorial
+  - singlecellforbeginners
+  - cellranger
+  - fastq
+---
+
 # Running cell ranger
 
 # 1. Working with publicly available datasets and how to fetch FASTQ files
