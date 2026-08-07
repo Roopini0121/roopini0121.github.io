@@ -178,7 +178,7 @@ done
 echo "All FASTQ files renamed for Cell Ranger."
 ```
 
-~~~~~~~~~~~~~~~~~~~~~~~~ **RUN CELL RANGER** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### RUN CELL RANGER
 
 Now that you have everything, you are ready to run cell ranger. 
 
