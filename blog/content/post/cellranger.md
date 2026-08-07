@@ -18,11 +18,11 @@ For publicly available single-cell RNA-seq datasets, the raw sequencing files ar
 
 Lets take GSE249131 for example. It opens to the GEO dataset page. scroll down to see SRA Run Selector. 
 
-!(blog/static/images/sra.png)
+![SRA Run Selector](/images/sra.png)
 
 You are led into a page like this. What this is, is the entire raw data of the samples in the dataset. 
 
-**This data has 66 samples on the whole. but when you look at the SRA files there are about 220.**
+*This data has 66 samples on the whole. but when you look at the SRA files there are about 220.*
 
 So, there can be different reasons for this
 
@@ -36,11 +36,11 @@ SRR .. is the SRA nos, they can be unique nos for the different runs of 1 sample
 
 SAMN .. is the Biosample number. Which is unique to a sample
 
-~~~~~~~~~~~~~~ **Fetching the fastqs from the srr** ~~~~~~~~~~~~~~~~
+### Fetching the fastqs from the srr
 
 Above the SRA table, you see another small table that says metadata or Accession list 
 
-!(blog/static/images/accession_list.png)
+![Accession list](/images/accession_list.png)
 
 Depending on your project you may need to download all the data files or just a few of them. You can download this accession list to feed into your fetch code to get 
 
@@ -136,7 +136,7 @@ The above will generate error files and out files. In case the job breaks you ca
 
 You will need your outputs to be like this
 
-!(blog/static/images/samn_outputs.png)
+![SAMN outputs](/images/samn_outputs.png)
 
 Ive mapped the multiple SRR files with the BioSample ID (SAMN . .) 
 
@@ -314,7 +314,7 @@ You can even run this as a slrum job where you just call your .py file
 
 your output is going to be neat
 
-!(blog/static/images/cellranger_output.png)
+![Cell Ranger output](/images/cellranger_output.png)
 
 These are your major files and dirs
 
